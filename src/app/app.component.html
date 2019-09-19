@@ -6,7 +6,7 @@
         (click)="onlyOdd = !onlyOdd">Only show odd numbers</button>
       <br><br>
       <ul class="list-group">
-
+<!--List of Odd Numbers -->
       <div *ngIf="onlyOdd">
         <li
           class="list-group-item"
@@ -17,7 +17,7 @@
         
         </li>
       </div>
-      
+ <!--List of Even Numbers -->     
       <div *ngIf="!onlyOdd">
         <li
           class="list-group-item"
