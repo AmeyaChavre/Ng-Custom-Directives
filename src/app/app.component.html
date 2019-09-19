@@ -10,6 +10,9 @@
           class="list-group-item"
           *ngFor = "let number of numbers"
           >
+
+          {{ numbers }}
+        
         </li>
       </ul>
       <ng-template [ngIf]="onlyOdd">
