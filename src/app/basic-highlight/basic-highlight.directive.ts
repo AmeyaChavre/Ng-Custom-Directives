@@ -1,4 +1,4 @@
-import { Directive } from '@angular/core';
+import { Directive, ElementRef } from '@angular/core';
 
 @Directive({
 selector: '[appBasicHighlight]'
@@ -6,6 +6,6 @@ selector: '[appBasicHighlight]'
 
 export class BasicHighlightDirective{
 	constructor(elementRef: ElementRef) {
-		
+
 	}
 }
