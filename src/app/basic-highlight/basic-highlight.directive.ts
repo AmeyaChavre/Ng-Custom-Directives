@@ -5,5 +5,7 @@ selector: '[appBasicHighlight]'
 })
 
 export class BasicHighlightDirective{
-
+	constructor(elementRef: ElementRef) {
+		
+	}
 }
