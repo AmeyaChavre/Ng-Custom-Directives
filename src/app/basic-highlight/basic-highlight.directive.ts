@@ -10,6 +10,9 @@ export class BasicHighlightDirective implements OnInit{
 	}
 
 	ngOnInit(){
-		this.elementRef.nativeElement.style.backgroundColor = 'green'; // Imparts green color to 
-	} // background whenever custom directive selector is attached to a html tag
+		this.elementRef.nativeElement.style.backgroundColor = 'green';
+     	this.elementRef.nativeElement.style.color = 'yellow';
+	}
+     // Imparts green color to 
+	 // background whenever custom directive selector is attached to a html tag
 }
