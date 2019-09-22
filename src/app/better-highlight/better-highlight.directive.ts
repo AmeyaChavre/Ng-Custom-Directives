@@ -1,11 +1,11 @@
-import { Directive, Renderer2, OnInit } from '@angular/core';
+import { Directive, OnInit,  ElementRef, Renderer2 } from '@angular/core';
 
 @Directive({
   selector: '[appBetterHighlight]'
 })
 export class BetterHighlightDirective implements OnInit {
 
-  constructor(private renderer: Renderer2) {
+  constructor(private elRef: ElementRef, private renderer: Renderer2) {
 
   }
 
