@@ -9,7 +9,7 @@ export class BetterHighlightDirective implements OnInit {
 
   }
 
-  ngOnInit{
+  ngOnInit() {
 
   }
 
