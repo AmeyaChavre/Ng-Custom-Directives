@@ -3,8 +3,10 @@ import { Directive, Renderer2 } from '@angular/core';
 @Directive({
   selector: '[appBetterHighlight]'
 })
-export class BetterHighlightDirective {
+export class BetterHighlightDirective implements OnInit {
 
-  constructor(private renderer: Renderer2) { }
+  constructor(private renderer: Renderer2) {
+
+  }
 
 }
