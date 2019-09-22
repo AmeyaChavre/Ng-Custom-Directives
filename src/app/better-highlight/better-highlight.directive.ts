@@ -5,6 +5,6 @@ import { Directive, Renderer2 } from '@angular/core';
 })
 export class BetterHighlightDirective {
 
-  constructor(renderer: Renderer2) { }
+  constructor(private renderer: Renderer2) { }
 
 }
