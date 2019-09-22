@@ -1,10 +1,10 @@
-import { Directive } from '@angular/core';
+import { Directive, Renderer2 } from '@angular/core';
 
 @Directive({
   selector: '[appBetterHighlight]'
 })
 export class BetterHighlightDirective {
 
-  constructor() { }
+  constructor(renderer: Renderer2) { }
 
 }
