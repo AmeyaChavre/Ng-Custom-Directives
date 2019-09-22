@@ -10,7 +10,7 @@ export class BetterHighlightDirective implements OnInit {
   }
 
   ngOnInit() {
-
+  	this.renderer.setStyle(this.elRef.nativeElement, 'background-color', 'blue');
   }
 
 }
