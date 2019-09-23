@@ -1,4 +1,4 @@
-import { Directive, Input, TemplateRef  } from '@angular/core';
+import { Directive, Input, TemplateRef, ViewContainerRef  } from '@angular/core';
 
 @Directive({
   selector: '[appUnless]'
@@ -13,6 +13,6 @@ export class UnlessDirective {
   	}
   }
 
-  constructor(private templateRef: TemplateRef<any>) { }
+  constructor(private templateRef: TemplateRef<any>, private vcRef: ViewContainerRef) { }
 
 }
