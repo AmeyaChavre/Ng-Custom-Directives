@@ -9,7 +9,7 @@ export class UnlessDirective {
   	if(!condition){
   		this.vcRef.createEmbeddedView(this.templateRef);
   	} else {
-
+  		this.vcRef.clear();
   	}
   }
 
