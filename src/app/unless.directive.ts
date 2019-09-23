@@ -1,4 +1,4 @@
-import { Directive, Input } from '@angular/core';
+import { Directive, Input, TemplateRef  } from '@angular/core';
 
 @Directive({
   selector: '[appUnless]'
@@ -9,10 +9,10 @@ export class UnlessDirective {
   	if(!condition){
 
   	} else {
-  		
+
   	}
   }
 
-  constructor() { }
+  constructor(private templateRef: TemplateRef<any>) { }
 
 }
