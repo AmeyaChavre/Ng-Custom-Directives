@@ -12,6 +12,8 @@ import {
 })
 export class BetterHighlightDirective implements OnInit {
 
+  @HostBinding('style.backgroundColor') backgroundColor: string;
+
   constructor(private elRef: ElementRef, private renderer: Renderer2) {
 
   }
