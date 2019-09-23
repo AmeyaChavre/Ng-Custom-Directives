@@ -35,5 +35,6 @@ export class BetterHighlightDirective implements OnInit {
   	//this.renderer.setStyle(this.elRef.nativeElement, 'background-color', 'transparent');
   	//this.renderer.setStyle(this.elRef.nativeElement, 'color', 'black');
   	this.backgroundColor='transparent';
+  	this.color='black';
   }
 }
