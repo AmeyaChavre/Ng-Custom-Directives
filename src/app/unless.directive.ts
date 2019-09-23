@@ -5,7 +5,9 @@ import { Directive, Input } from '@angular/core';
 })
 export class UnlessDirective {
 
-  @Input() 
+  @Input() set unless(value){
+
+  }
 
   constructor() { }
 
