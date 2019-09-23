@@ -51,7 +51,7 @@
         </div>
       </ng-template>  
 -->
-     <div *appUnless="!onlyOdd">
+     <div *appUnless="onlyOdd">
         <li
           class="list-group-item"
           [ngClass] = "{odd: even % 2 !== 0}"
@@ -63,7 +63,7 @@
         
         </li>        
       </div>
-      
+
       </ul>
     <p appBasicHighlight> 
       This has been styled using our own custom Directive "BasicHighlightDirective" 
